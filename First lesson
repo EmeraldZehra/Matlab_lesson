@@ -1,0 +1,6 @@
+vize = input('vize notunu giriniz');
+final = input('final notunu giriniz');
+
+ortalama = vize*4/10+final*6/10;
+
+disp("Ortalamanız "+ortalama+" dır")
