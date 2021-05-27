@@ -1,6 +1,19 @@
+clc;
+clear;
+
 vize = input('vize notunu giriniz');
 final = input('final notunu giriniz');
 
 ortalama = vize*4/10+final*6/10;
 
 disp("Ortalamanız "+ortalama+" dır")
+
+if ortalama > 50 
+    disp("tebrikler dersten geçtiniz")
+elseif ortalama == 50
+     disp("şartlı geçtiniz")
+else 
+    disp("dersten kaldı")
+end
+
+
